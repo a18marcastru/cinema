@@ -7,9 +7,10 @@ import { RouterLink, RouterView } from "vue-router";
 
     <div class="wrapper">
 
-      <nav>
-        <button class="btn btn-primary"><RouterLink id="session" to="/">Home</RouterLink></button>
-        <button><RouterLink to="/about">About</RouterLink></button>
+      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <a href="">Administrador</a>
+        <RouterLink id="session" to="/">Sessiones</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
   </header>
